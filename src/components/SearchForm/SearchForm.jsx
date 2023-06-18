@@ -35,6 +35,7 @@ export class SearchForm extends Component {
           name="search"
           required
           autoFocus
+          value={this.state.query}
         />
       </SearchFormStyled>
     );
